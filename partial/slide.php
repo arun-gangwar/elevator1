@@ -32,7 +32,7 @@
                 </div>
 
             <svg class="svg-bg" viewBox="0 0 2880 320" preserveAspectRatio="none">
-                <path fill="#00b8ff" fill-opacity="0.2" d="M0,192L1440,64L2880,192L2880,320L0,320Z"></path>
+                <path fill="#f34f1a" fill-opacity="0.2" d="M0,192L1440,64L2880,192L2880,320L0,320Z"></path></path>
             </svg>
 
             <svg class="circle-svg" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
@@ -60,6 +60,8 @@
             <div class="swiper-button-prev"></div>
         </div>
     </div>
+
+
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>

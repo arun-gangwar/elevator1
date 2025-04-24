@@ -59,6 +59,15 @@ a {
 html,
 body {
   scroll-behavior: smooth;
+  
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f0f4f8; // Light gray background 
+  /* overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; */
 }
 
 body {
@@ -777,7 +786,7 @@ nav {
 .slider-container {
     /*width: 80%; /* Reduced width */
     /*max-width: 1200px; /* Maximum width */
-    height: 600px; /* Fixed height for better control */
+    height: 450px; /* Fixed height for better control */
     position: relative;
     padding-right: 60px; /* Added right padding for the circle */
     box-sizing: border-box; /* Ensure padding is included in the width */
@@ -809,10 +818,10 @@ nav {
     margin-bottom: 15px;
     font-weight: 600; /* Semi-bold */
 }
-/* 
+
 .swiper-content h1 span {
-    color: #0078d7;
-} */
+    color: #f34f1a;
+}
 
 .swiper-content p {
     font-size: 1.2rem; /* Increased font size */
