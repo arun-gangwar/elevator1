@@ -14,16 +14,31 @@
       </form>
     </div>
   </div>
+
   <div class="section__container footer__bar">
-    <div class="footer__logo">
-      <h4><a href="#">NovusHaus</a></h4>
-      <p>Copyright © 2023 Web Design Mastery. All rights reserved.</p>
+    <div class="footer__bar__left">
+      <div class="footer__logo">
+        <h4><a href="#">blcelevator</a></h4>
+        <p>Copyright © 2025</p>
+      </div>
     </div>
-    <ul class="footer__nav">
-      <li class="footer__link"><a href="#">About</a></li>
-      <li class="footer__link"><a href="#">Partnership</a></li>
-      <li class="footer__link"><a href="#">Privacy Policy</a></li>
-    </ul>
+
+    <div class="footer__bar__center">
+      <ul class="footer__nav">
+        <li class="footer__link"><a href="#">About</a></li>
+        <li class="footer__link"><a href="#">Partnership</a></li>
+        <li class="footer__link"><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
+
+    <div class="footer__bar__right">
+      <ul class="footer__social">
+        <li><a href="https://facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://x.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="https://linkedin.com" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+      </ul>
+    </div>
   </div>
 </footer>
 
