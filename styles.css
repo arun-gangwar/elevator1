@@ -66,9 +66,21 @@ section .row > div {
   cursor: pointer;
   transition: 0.3s;
 }
-
+.btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem #f34f1a;
+}
+.btn:active {
+  transform: scale(0.95);
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.2);
+}
+/* 
 .btn:hover {
   background-color: var(--text-dark);
+} */
+
+.btn:hover {
+  color: #f34f1a;
 }
 
 img {
@@ -660,6 +672,56 @@ nav {
   color: var(--white);
   white-space: nowrap;
 }
+
+
+.footer__bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* Good for small screens */
+  gap: 20px;
+}
+
+.footer__bar__left,
+.footer__bar__center,
+.footer__bar__right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__nav {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__nav li a {
+  text-decoration: none;
+  color: #555;
+}
+
+.footer__social {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__social li a {
+  font-size: 22px;
+  color: #555;
+  transition: color 0.3s ease;
+}
+
+.footer__social li a:hover {
+  color: #f34f1a;
+}
+
+
 
 @media (width < 1200px) {
   .offer__container {

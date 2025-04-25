@@ -1,9 +1,51 @@
 <!DOCTYPE html>
-<ht lang="en">
-
+<html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <?php
+        // Function to get page info
+        function getPageInfo() {
+            $currentPage = basename($_SERVER['PHP_SELF']);
+            $pageInfo = [
+                'index.php' => [
+                    'title' => 'Best Elevator Company | BLC Elevator',
+                    'description' => 'Leading elevator and escalator solutions in Bangalore. We provide installation, maintenance, and repair services.'
+                ],
+                'spareparts.php' => [
+                    'title' => 'Elevator Spare Parts | BLC Elevator',
+                    'description' => 'Quality elevator spare parts and components. Find all your elevator maintenance needs.'
+                ],
+                'maintainence.php' => [
+                    'title' => 'Elevator Maintenance Services | BLC Elevator',
+                    'description' => 'Professional elevator maintenance services. Keep your elevators running safely and efficiently.'
+                ],
+                'annualM.php' => [
+                    'title' => 'Annual Maintenance Contract | BLC Elevator',
+                    'description' => 'Comprehensive annual maintenance contracts for elevators. Ensure year-round safety and performance.'
+                ]
+            ];
+            
+            return isset($pageInfo[$currentPage]) ? $pageInfo[$currentPage] : [
+                'title' => 'BLC Elevator | Elevator Solutions',
+                'description' => 'Professional elevator services in Bangalore'
+            ];
+        }
+
+        $pageInfo = getPageInfo();
+        ?>
+        
+        <title><?php echo htmlspecialchars($pageInfo['title']); ?></title>
+        <meta name="description" content="<?php echo htmlspecialchars($pageInfo['description']); ?>">
+        
+        <!-- Open Graph / Social Media Meta Tags -->
+        <meta property="og:title" content="<?php echo htmlspecialchars($pageInfo['title']); ?>">
+        <meta property="og:description" content="<?php echo htmlspecialchars($pageInfo['description']); ?>">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="<?php echo htmlspecialchars('https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']); ?>">
+        <meta property="og:image" content="assets/logo.png">
+        
+        <!-- Existing CSS and other head elements -->
         <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -20,7 +62,6 @@
         <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
         <link rel="stylesheet" href="styles.css" />
-        <title>Best Elevator Company | Blcelevator</title>
     </head>
 
     <div class="top-bar bg-dark text-white w-100 py-2">
@@ -32,11 +73,11 @@
             </div>
             <div class="d-flex align-items-center">
                 <i class="bi bi-telephone-fill text-success me-1"></i>
-                <span style="color: white;">+91 8884421146</span>
+                <span style="color: white;">+91 9743322229</span>
             </div>
             <div class="d-flex align-items-center">
                 <i class="bi bi-envelope-fill text-danger me-1"></i>
-                <span style="color: white;">info@samrudhyaelevators.com</span>
+                <span style="color: white;">info@blcelevator.com</span>
             </div>
         </div>
     </div>
@@ -68,7 +109,7 @@
                         Services
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
-                        <li><a class="dropdown-item" href="maintainence.php">Maintenance</a></li>
+                        <li><a class="dropdown-item" href="maintenance.php">Maintenance</a></li>
                         <li><a class="dropdown-item" href="annualM.php">Annual Maintenance</a></li>
                     </ul>
                 </li>
@@ -81,54 +122,6 @@
 
     </header>
 
-
-
-    <!-- 
-
-
-<header class="header">
-
-
-
-
-    <nav>
-        <div class="nav__logo"><a href="#"><img src="assets/logo.png" alt="Logo"></a></div>
-        <ul class="nav__links" id="nav-links">
-            <li class="link"><a href="#home">Home</a></li>
-            <li class="link"><a href="#choose">About</a></li>
-            <li class="link"><a href="#craft">Craft</a></li>
-            <li class="link"><a href="#testimonial">Testimonials</a></li>
-            <li class="link"><a href="#blog">Blog</a></li>
-        </ul>
-        <div class="nav__menu__btn" id="menu-btn">
-            <span><i class="ri-menu-line"></i></span>
-        </div>
-        <div class="nav__actions">
-            <a href="https://api.whatsapp.com/send?phone=+919740484037">
-                <input type="submit" class="btn btn-primary" value="Direct Contact">
-            </a>
-            <span><i class="ri-search-fill"></i></span>
-            <span><i class="ri-user-fill"></i></span>
-        </div>
-    </nav>
-
-
-    <div class="section__container header__container" id="home">
-        <h1>Make Your Interior More Minimalistic & Modern</h1>
-        <p>
-            Turn your room with panto into a lot more minimalistic and modern with
-            ease and speed
-        </p>
-
-        <form action="/">
-            <input type="text" placeholder="Search furniture" />
-            <button><i class="ri-search-line"></i></button>
-        </form>
-        <a href="#choose"><i class="ri-arrow-down-double-line"></i></a>
-    </div>
-
-    </header> -->
-
     <section class="section__header" id="slide"></section>
     <!-- <header class="header"> -->
     <?php
@@ -138,3 +131,4 @@
     </section>
 
     </div>
+</html>
