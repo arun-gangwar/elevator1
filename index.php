@@ -8,54 +8,50 @@ include("partial/header.php");
     <div class="choose__content">
         <h2 class="section__header">Why Choose Us</h2>
         <p class="section__subheader">
-            Experience Unmatched Creativity and Expertise in Interior Design.
-            Discover Why We're the Right Choice for Your Dream Space
+        BLC Elevators is a proudly Indian brand, renowned for its expertise in crafting bespoke vertical mobility solutions. With years of experience 18years  in the elevator industry,         BLC Elevators and accessories delivers innovative and reliable systems designed to seamlessly fit into both residential and commercial environments. Their focus on blending function with aesthetic appeal makes their offerings not just practical, but also visually compelling. 
         </p>
         <div class="choose__grid">
             <div class="choose__card">
-                <span><i class="ri-truck-line"></i></span>
-                <h4>Fast & Free Shipping</h4>
+                <!-- <span><i class="ri-truck-line"></i></span> -->
+                <h4>  Traction Elevator</h4>
                 <p>
-                    Elevate your interior design with our Fast & Free Shipping service
-                    without delay
+                Efficient and ideal for high-rise buildings, offering smooth and fast vertical transportation with energy-saving benefits. 
                 </p>
             </div>
             <div class="choose__card">
-                <span><i class="ri-shopping-bag-3-line"></i></span>
-                <h4>Easy to Shop</h4>
+                <!-- <span><i class="ri-shopping-bag-3-line"></i></span> -->
+                <h4>  MRL (Machine Room-Less) Elevators 
+                </h4>
                 <p>
-                    Discover Effortless Elegance: Explore Our Easy-to-Shop Interior
-                    Design Solutions
+                Space-saving elevators without a separate machine room, perfect for mid to high-rise buildings with modern design requirements. 
                 </p>
             </div>
             <div class="choose__card">
-                <span><i class="ri-customer-service-2-line"></i></span>
-                <h4>24/7 Support</h4>
+                <!-- <span><i class="ri-customer-service-2-line"></i></span> -->
+                <h4>  Hydraulic Elevators                 </h4>
                 <p>
-                    Experience peace of mind knowing that our dedicated team is
-                    available round the clock
+                Cost-effective and reliable solutions for low to mid-rise buildings, using fluid-driven pistons for vertical movement.
                 </p>
             </div>
             <div class="choose__card">
-                <span><i class="ri-loop-right-line"></i></span>
-                <h4>Hassle Free Returns</h4>
+                <!-- <span><i class="ri-loop-right-line"></i></span> -->
+                <h4>  Hospital Elevators</h4>
                 <p>
-                    We believe in the perfect match, and if it doesn't quite fit, we
-                    make returning items a breeze
+                Specially built for medical facilities, providing spacious, smooth, and hygienic transport for patients, staff, and equipment. 
                 </p>
             </div>
         </div>
     </div>
     <div class="choose__image">
-        <img src="assets/choose.jpg" alt="choose" />
+        <img src="assets/E1.jpg" alt="choose" />
     </div>
 </section>
 
 <section class="offer__container" id="offer">
     <div class="offer__grid__top">
-        <img src="assets/offer-1.jpg" alt="offer" />
-        <img src="assets/offer-2.jpg" alt="offer" />
-        <img src="assets/offer-3.jpg" alt="offer" />
+        <img src="assets/8.jpeg" alt="offer" />
+        <img src="assets/4.jpeg" alt="offer" />
+        <img src="assets/E8.jpg" alt="offer" />
         <div class="offer__content">
             <h2 class="section__header">Smart Offers</h2>
             <p class="section__subheader">
@@ -115,40 +111,34 @@ include("partial/header.php");
     </div>
     <div class="modern__content">
         <h2 class="section__header">
-            We help you design modern interior design
+        Our Services – Expertise You Can Rely On 
         </h2>
         <p class="section__subheader">
-            Transform Your Space with Our Contemporary Interior Design Expertise:
-            Let us guide you in crafting sleek and stylish interiors that reflect
-            your unique taste and lifestyle
+        At BLC Elevators, we pride ourselves on offering end-to-end elevator maintenance solutions backed by deep industry knowledge and a commitment to excellence. We understand that an elevator is a complex integration of electronic, electrical, and mechanical systems—and ensuring its reliability and safety requires expert care and routine servicing. Our maintenance programs are designed to enhance elevator performance, reduce downtime, and extend lifespan. 
         </p>
         <div class="modern__grid">
             <div class="modern__card">
                 <span><i class="ri-checkbox-blank-circle-line"></i></span>
                 <p>
-                    Our team specializes in creating customized interior designs that
-                    embrace modern aesthetics.
+                We use digital diagnostic tools and computerized monitoring to detect faults early, enabling quicker resolutions and better performance. 
                 </p>
             </div>
             <div class="modern__card">
                 <span><i class="ri-checkbox-blank-circle-line"></i></span>
                 <p>
-                    We stay at the forefront of design trends, ensuring your space is
-                    stylish and innovative.
+                Our team includes experienced installation engineers and maintenance specialists trained to handle the latest elevator models and technologies.
                 </p>
             </div>
             <div class="modern__card">
                 <span><i class="ri-checkbox-blank-circle-line"></i></span>
                 <p>
-                    Modern interior design isn't just about aesthetics; it's about
-                    functionality and comfort too.
+                We offer full-service maintenance packages that help keep operational costs low while ensuring smooth and safe performance. 
                 </p>
             </div>
             <div class="modern__card">
                 <span><i class="ri-checkbox-blank-circle-line"></i></span>
                 <p>
-                    We take care of all aspects of the design process, from concept to
-                    procurement and installation.
+                Advanced solutions for overseeing multiple elevator systems in real-time, ensuring maximum uptime.
                 </p>
             </div>
         </div>
@@ -157,7 +147,7 @@ include("partial/header.php");
 </section>
 
 <section class="section__container testimonial__container" id="testimonial">
-    <h2 class="section__header">Testimonials</h2>
+    <h2 class="section__header">Spare Parts</h2>
     <!-- Slider main container -->
     <div class="swiper">
         <!-- Additional required wrapper -->
@@ -166,33 +156,64 @@ include("partial/header.php");
             <div class="swiper-slide">
                 <div class="testimonial__card">
                     <p>
-                        Working with them was an absolute pleasure! Their modern design
-                        expertise completely transformed my home into a contemporary
-                        haven. I now have a space that not only looks stunning but also
-                        feels incredibly comfortable. I couldn't be happier with the
-                        results
+                    We offer a wide range of spare parts for all types of elevators. Contact us for more information.
+                    Elevator spare parts are essential for maintenance, repairs, and modernization of elevator systems. 
+
+
                     </p>
-                    <img src="assets/profile-pic-1.jpg" alt="testimonial" />
-                    <h4>Sam William</h4>
-                    <h5>CEO, Co-Founder</h5>
-                </div>
+                    <!-- <img src="assets/profile-pic-1.jpg" alt="testimonial" /> -->
+                    <!-- <h4>Sam William</h4>
+                    <h5>CEO, Co-Founder</h5> -->
+                    <!-- <section class="section_spareparts" id="slide"></section>
+<!--     
+   -->
+    <div id="carouselExample" class="carousel slide col-lg-6 text-center" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item">
+                <img src="assets/E3.jpg" class="d-block w-100 img-fluid rounded shadow" alt="Blc Elevators 1" loading="lazy">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/E8.jpg" class="d-block w-100 img-fluid rounded shadow" alt="Blc Elevators 2" loading="lazy">
+              </div>
+              <div class="carousel-item active">
+                <img src="assets/8.jpeg" class="d-block w-100 img-fluid rounded shadow" alt="Blc Elevators 3" loading="lazy">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/7.jpeg" class="d-block w-100 img-fluid rounded shadow" alt="Blc Elevators 4" loading="lazy">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/E6.jpg" class="d-block w-100 img-fluid rounded shadow" alt="Blc Elevators 5" loading="lazy">
+              </div>
             </div>
+
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+                </div>
+                
+            </div>
+            
             <div class="swiper-slide">
                 <div class="testimonial__card">
-                    <p>
-                        I hired them to revamp our office space, and the results
-                        exceeded my expectations. Their innovative design concepts
-                        breathed new life into our workplace, making it both functional
-                        and stylish. The team's attention to detail and commitment to
-                        quality are truly commendable.
-                    </p>
-                    <img src="assets/profile-pic-2.jpg" alt="testimonial" />
-                    <h4>Michelle Anna</h4>
-                    <h5>Office Renovator</h5>
+                
+                    <p>Elevator spare parts are critical components that ensure the smooth operation, safety, and longevity of elevator systems. These parts include items such as control panels, door operators, guide rails, traction machines, safety gears, and more. Regular maintenance and timely replacement of worn-out parts are essential to prevent breakdowns and ensure optimal performance</p>
+
+                    <p>At BLC Elevators, we offer a comprehensive range of high-quality spare parts compatible with various elevator models, ensuring reliability and seamless integration.</p>
+                   
+                    <!-- <img src="assets/profile-pic-2.jpg" alt="testimonial" /> -->
+                    <!-- <h4>Michelle Anna</h4>
+                    <h5>Office Renovator</h5> -->
                 </div>
             </div>
-            <div class="swiper-slide">
-                <div class="testimonial__card">
+             <div class="swiper-slide"> 
+                <!-- <div class="testimonial__card">
                     <p>
                         I had a vision of a minimalist-inspired home, and they brought
                         it to life flawlessly. Their designers understood my aesthetic
@@ -203,9 +224,9 @@ include("partial/header.php");
                     <img src="assets/profile-pic-3.jpg" alt="testimonial" />
                     <h4>John D'souza</h4>
                     <h5>Banker</h5>
-                </div>
-            </div>
-            <div class="swiper-slide">
+                </div> -->
+             </div>
+            <!-- <div class="swiper-slide">
                 <div class="testimonial__card">
                     <p>
                         What sets them apart is their professionalism and efficiency.
@@ -217,7 +238,7 @@ include("partial/header.php");
                     <img src="assets/profile-pic-4.jpg" alt="testimonial" />
                     <h4>David Laid</h4>
                     <h5>Businessman</h5>
-                </div>
+                </div> -->
             </div>
         </div>
         <!-- If we need pagination -->
@@ -226,22 +247,22 @@ include("partial/header.php");
 </section>
 
 <section class="section__container blog_container" id="blog">
-    <h2 class="section__header">Recent Blog</h2>
+    <!-- <h2 class="section__header">Recent Blog</h2> -->
     <div class="blog__grid">
         <div class="blog__card">
-            <img src="assets/blog-1.jpg" alt="blog" />
+            <img src="assets/design2.jpeg" alt="blog" />
             <h4>Mastering Modern Minimalism</h4>
             <p><span>by</span> DesignSavvySoul <span>on</span> Apr 18th, 2022</p>
         </div>
         <div class="blog__card">
-            <img src="assets/blog-2.jpg" alt="blog" />
+            <img src="assets/E7.jpg" alt="blog" />
             <h4>The Fusion of Tech and Design</h4>
             <p>
                 <span>by</span> ChicNestInteriors <span>on</span> Nov 10th, 2022
             </p>
         </div>
         <div class="blog__card">
-            <img src="assets/blog-3.jpg" alt="blog" />
+            <img src="assets/design6.jpeg" alt="blog" />
             <h4>Eco-Friendly Modern Interiors</h4>
             <p><span>by</span> HomeStyleHarmony <span>on</span> Feb 25th, 2023</p>
         </div>

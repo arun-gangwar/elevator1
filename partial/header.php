@@ -27,15 +27,16 @@
         <div class="container d-flex justify-content-end gap-4">
             <div class="d-flex align-items-center">
                 <i class="bi bi-geo-alt-fill text-primary me-1"></i>
-                <span>Bangalore</span>
+                <!-- <span>Bangalore</span> -->
+                <span style="color: white;">Bangalore</span>
             </div>
             <div class="d-flex align-items-center">
                 <i class="bi bi-telephone-fill text-success me-1"></i>
-                <span>+91 8884421146</span>
+                <span style="color: white;">+91 8884421146</span>
             </div>
             <div class="d-flex align-items-center">
                 <i class="bi bi-envelope-fill text-danger me-1"></i>
-                <span>info@samrudhyaelevators.com</span>
+                <span style="color: white;">info@samrudhyaelevators.com</span>
             </div>
         </div>
     </div>
@@ -51,14 +52,14 @@
 
             <!-- <ul class="nav justify-content-center py-3"> -->
             <ul class="nav__links" id="nav-links">
-                <li class="nav-item"><a class="nav-link text-white" href="home.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="index.php">Home</a></li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-white" href="#" id="productsDropdown" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false">
                         Products
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="productsDropdown">
-                        <li><a class="dropdown-item" href="spare_parts.html">Spare Parts</a></li>
+                        <li><a class="dropdown-item" href="spareparts.php">Spare Parts</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
@@ -67,14 +68,14 @@
                         Services
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
-                        <li><a class="dropdown-item" href="maintenance.html">Maintenance</a></li>
-                        <li><a class="dropdown-item" href="maintenance.html">Annual Maintenance</a></li>
+                        <li><a class="dropdown-item" href="maintainence.php">Maintenance</a></li>
+                        <li><a class="dropdown-item" href="annualM.php">Annual Maintenance</a></li>
                     </ul>
                 </li>
-                <li class="nav-item"><a class="nav-link text-white" href="career.html">Careers</a></li>
+                <!-- <li class="nav-item"><a class="nav-link text-white" href="career.html">Careers</a></li> -->
                 <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
-                <li class="nav-item"><a class="nav-link text-white" href="">Demo</a></li>
-                <li class="nav-item"><a class="nav-link text-white" href="">Demo</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="">Gallery</a></li>
+                <!-- <li class="nav-item"><a class="nav-link text-white" href="">Demo</a></li> -->
             </ul>
         </div>
 
