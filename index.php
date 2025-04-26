@@ -87,7 +87,11 @@ include("partial/header.php");
     <div class="craft__image">
         <div class="craft__image__content">
             <img src="assets/4.jpeg" alt="craft" />
+<<<<<<< HEAD
             <p>Telescopic Door</p>
+=======
+            <p>Nordic Chair</p>
+>>>>>>> adada0e62cf2a97c9ec8c033a06ff4f952c56467
             <!-- <h4>$65.00</h4> -->
         </div>
         <a href="#"><i class="ri-add-line"></i></a>
@@ -95,7 +99,11 @@ include("partial/header.php");
     <div class="craft__image">
         <div class="craft__image__content">
             <img src="assets/5.jpeg" alt="craft" />
+<<<<<<< HEAD
             <p>Telescopic Door</p>
+=======
+            <p>Wingback Chair</p>
+>>>>>>> adada0e62cf2a97c9ec8c033a06ff4f952c56467
             <!-- <h4>$50.00</h4> -->
         </div>
         <a href="#"><i class="ri-add-line"></i></a>
@@ -103,7 +111,11 @@ include("partial/header.php");
     <div class="craft__image">
         <div class="craft__image__content">
             <img src="assets/6.jpeg" alt="craft" />
+<<<<<<< HEAD
             <p>Accordian Gate</p>
+=======
+            <p>Accent Chair</p>
+>>>>>>> adada0e62cf2a97c9ec8c033a06ff4f952c56467
             <!-- <h4>$70.00</h4> -->
         </div>
         <a href="#"><i class="ri-add-line"></i></a>
