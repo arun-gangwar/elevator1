@@ -37,15 +37,20 @@
         <li><a href="https://x.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
         <li><a href="https://instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></li>
         <li><a href="https://linkedin.com" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-      </ul>
+        <a  class="whats-app" href="https://api.whatsapp.com/send/?phone=919743322229" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+</a>
     </div>
   </div>
 </footer>
+
 
 <!-- Scripts -->
 <script src="https://unpkg.com/scrollreveal"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
 
 <script src="main.js"></script>
 </body>

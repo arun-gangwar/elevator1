@@ -7,38 +7,32 @@ include('partial/header.php');
   <div class="row align-items-center">
     <!-- Left Text -->
     <div class="col-lg-6">
-      <h2 class="section__header">Atlas AMC Comprehensive Maintenance Contract</h2>
+      <h2 class="section__header">Spare Parts</h2>
       <p class="section__subheader">
-        Our comprehensive maintenance contract ensures the smooth operation of your elevator systems, covering essential parts and providing monthly servicing for reliability and safety.
+      To ensure optimal performance and minimal downtime, our comprehensive maintenance contract includes the supply and replacement of essential elevator spare parts. From control system components and door mechanisms to safety devices and electrical elements, we cover the critical parts needed for smooth operation. Our expert technicians conduct monthly servicing to proactively identify and address wear and tear, helping to extend the lifespan of your equipment while maintaining the highest standards of safety and reliability.
       </p>
-
-      <h3 class="section__spareparts">Included Components:</h3>
+     
+      <h3 class="section__spareparts">Control System Components:</h3>
       <ul class="section__subheader">
-        <li>Controller transformer, phase failure relay, overload relay, timer relay</li>
-        <li>Main up and down relay, controller M.C, main contractor, final limit switches, fuses</li>
-        <li>Connectors, resistors, rubber bellows, lock covers</li>
-        <li>Pit switch, reed switch, control fuse, landing push buttons</li>
-        <li>Printed circuit boards (P.C.B), condensers, rectifiers</li>
-        <li>Cage top safety switches, inspection switches</li>
-        <li>Operating panel contacts, push button knobs, indicator bulbs</li>
-        <li>Junction box connectors, fan and light switches</li>
-        <li>Counterweight shoe liners, floor selector switches</li>
-        <li>Landing door lock contacts, door bearings, door gibs</li>
+        <li>Controller boards</li>
+        <li>Microprocessors</li>
+        <li>Inverter drives (VFDs)</li>
+        <li>Relay modules</li>
       </ul>
 
-      <h3 class="section__spareparts">Excluded Components:</h3>
+      <h3 class="section__spareparts">Structural Components:</h3>
       <p class="section__subheader">
-        Light fittings, mirrors, fans, gates/hoistway doors, door closers, electric mains and switches, vision glass, battery alarms, lift flooring, main ropes, motor machines, brake coils, travelling cables, intercoms, and inverters are not covered under this contract.
+      Structural components refer to the fixed, building-integrated parts that form the physical framework for the elevator system. These are not typically replaced during standard maintenance or considered "spare parts" because they are not designed to wear out in normal operation.
       </p>
 
-      <h3 class="section__spareparts">Monthly Maintenance Service Includes:</h3>
+      <h3 class="section__spareparts">Mechanical Components:</h3>
       <ul class="section__subheader">
-        <li>Machine room and light cleaning</li>
-        <li>Safety gear cleaning and brake liner checks</li>
-        <li>Control panel, landing doors, and lock inspections</li>
-        <li>Door leveling adjustments and final limit switch checks</li>
-        <li>Pit cleaning and speed governor pulley oiling</li>
-        <li>Returning cam operation check and full safety inspection</li>
+        <li>Guide Shoes / Rollers – Guide the car along rails</li>
+        <li>Elevator Ropes / Belts – Support and move the elevator (traction type)</li>
+        <li>Overspeed Governor – Stops the elevator if it moves too fast</li>
+        <li>Safety Gear – Engages the rail if there's an emergency stop</li>
+        <li>Buffers (Oil/Spring) – Absorb impact at the shaft bottom</li>
+        <li>Bearings & Couplings – For smooth mechanical operation</li>
       </ul>
     </div>
 
@@ -57,21 +51,21 @@ include('partial/header.php');
   <div class="row align-items-center">
     <!-- Left Side Text -->
     <div class="col-lg-6">
-      <h2 class="section__header">Atlas AMC Comprehensive Maintenance Contract</h2>
+      <h2 class="section__header">Our Products</h2>
       <p class="section__subheader">
-        Our comprehensive maintenance contract ensures the efficient and safe operation of your elevator systems through timely part replacements and regular service.
+      We offer a wide range of high-quality elevator products designed to meet various building requirements. Our product line includes passenger elevators, freight elevators, home lifts, and elevator components. Each product is built with a focus on safety, efficiency, and modern design to ensure reliable performance and a smooth user experience.
       </p>
 
-      <h3 class="section__spareparts">Parts Covered:</h3>
+      <!-- <h3 class="section__spareparts">Parts Covered:</h3> -->
       <ul>
-        <li>Controller Transformer, Phase Failure Relay, Overload Relay, Timer Relay, Main Up and Down Relay</li>
-        <li>Main Contractor, Controller M.C, Final Limit Switches, Fuses, Connectors, Resistors, Rubber Bellows, Lock Covers</li>
+        <li>Passenger Elevators: Elegant and efficient solutions for multi-story buildings, ensuring smooth transportation between floors with advanced safety features.</li>
+        <li>Freight Elevators: Robust and heavy-duty systems designed to carry goods, industrial materials, and large loads with efficiency and reliability.</li>
         <li>Pit Switch, Reed Switch, Control Fuse, Landing Push Buttons, PCB, Condensers, Rectifiers</li>
-        <li>Cage Top Safety Switches, Inspection Switches, Operating Panel Contacts, Push Button Knobs, Indicator Bulbs</li>
-        <li>Fan and Light Switches, Counterweight Shoe Liners, Floor Selector Switches, Landing Door Lock Contacts, Door Bearings, Door Gibs</li>
+        <li>Home Lifts: Compact and customizable solutions for residential buildings, combining convenience and comfort with a sleek design.</li>
+        <li>Home Lifts: Compact and customizable solutions for residential buildings, combining convenience and comfort with a sleek design.</li>
       </ul>
 
-      <h3 class="section__spareparts">Parts Not Covered:</h3>
+      <!-- <h3 class="section__spareparts">Parts Not Covered:</h3>
       <ul>
         <li>Light fittings, Mirrors, Fans, Gates/Hoistway Doors, Door Closers, Frames</li>
         <li>Electric Mains and Switches, Vision Glass, Emergency Alarm Bells</li>
@@ -86,7 +80,7 @@ include('partial/header.php');
         <li>Landing Doors and Locks Adjustment, Gate Switch Adjustment, Door Leveling</li>
         <li>Final Limit Switches Check, Light Cleaning, Pit Cleaning</li>
         <li>Speed Governor Pulley Oiling, Returning Cam Operation Check, Timing and Safety Inspection</li>
-      </ul>
+      </ul> -->
     </div>
 
     <!-- Right Side Image -->

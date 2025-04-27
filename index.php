@@ -41,8 +41,10 @@ include("partial/header.php");
                 </p>
             </div>
             <div class="choose__card">
-                <span><i class="ri-hospital-line"></i></span>
-                <h4> Hospital Elevators</h4>
+                <!-- <span><i class="ri-hospital-line"></i></span>
+                <h4> Hospital Elevators</h4> -->
+                <h4><span><i class="ri-hospital-line"></i></span> Hospital Elevators </h4>
+
                 <p>
                     Specially built for medical facilities, providing spacious, smooth, and hygienic transport for
                     patients, staff, and equipment.
@@ -69,7 +71,7 @@ include("partial/header.php");
         </div>
     </div>
     <div class="offer__grid__bottom">
-        <img src="assets/7.jpeg" alt="offer" />
+        <!-- <img src="assets/7.jpeg" alt="offer" /> -->
         <img src="assets/8.jpeg" alt="offer" />
         <img src="assets/9.jpeg" alt="offer" />
         <img src="assets/10.jpeg" alt="offer" />
@@ -87,11 +89,10 @@ include("partial/header.php");
     <div class="craft__image">
         <div class="craft__image__content">
             <img src="assets/4.jpeg" alt="craft" />
-<<<<<<< HEAD
+
             <p>Telescopic Door</p>
-=======
-            <p>Nordic Chair</p>
->>>>>>> adada0e62cf2a97c9ec8c033a06ff4f952c56467
+
+   
             <!-- <h4>$65.00</h4> -->
         </div>
         <a href="#"><i class="ri-add-line"></i></a>
@@ -99,11 +100,9 @@ include("partial/header.php");
     <div class="craft__image">
         <div class="craft__image__content">
             <img src="assets/5.jpeg" alt="craft" />
-<<<<<<< HEAD
             <p>Telescopic Door</p>
-=======
-            <p>Wingback Chair</p>
->>>>>>> adada0e62cf2a97c9ec8c033a06ff4f952c56467
+
+        
             <!-- <h4>$50.00</h4> -->
         </div>
         <a href="#"><i class="ri-add-line"></i></a>
@@ -111,11 +110,9 @@ include("partial/header.php");
     <div class="craft__image">
         <div class="craft__image__content">
             <img src="assets/6.jpeg" alt="craft" />
-<<<<<<< HEAD
+
             <p>Accordian Gate</p>
-=======
-            <p>Accent Chair</p>
->>>>>>> adada0e62cf2a97c9ec8c033a06ff4f952c56467
+
             <!-- <h4>$70.00</h4> -->
         </div>
         <a href="#"><i class="ri-add-line"></i></a>
@@ -176,20 +173,37 @@ include("partial/header.php");
 
 <section class="section__container testimonial__container" id="testimonial">
     <h2 class="section__header">Spare Parts</h2>
+    <p >
+        We offer a wide range of high-quality elevator spare parts designed to ensure the smooth operation and
+        longevity of your elevator systems. Our products include control panels, door operators, guide rails,
+        traction machines, safety gears, and more. Each part is manufactured to meet industry standards and
+        specifications, ensuring reliability and performance.
+        Elevator spare parts are essential for maintaining the smooth and safe operation of elevator systems. These parts can be categorized into mechanical, electrical, door system, and safety components.</p>
+
+<p>Mechanical parts include the traction sheave (pulley), which drives the elevator ropes, and guide rails, which keep the elevator car aligned. Counterweight rollers support the counterweight’s movement, while suspension ropes (steel cables) bear the load of the car and counterweight. In hydraulic elevators, the hydraulic jack and seals are critical for lifting the car, and leaks in these components can lead to operational failures. Buffers (oil or spring-based) absorb impact in case of an emergency stop.</p>
+
+
     <!-- Slider main container -->
     <div class="swiper">
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
             <!-- Slides -->
             <div class="swiper-slide">
-                <div class="testimonial__card">
+                <div class="testimonial__card"> 
+                    <h2>New installation</h2>
                     <p>
-                        We offer a wide range of spare parts for all types of elevators. Contact us for more
-                        information.
-                        Elevator spare parts are essential for maintenance, repairs, and modernization of elevator
-                        systems.
-
-
+                    New installations and in particular design innovations are our forte. Again we
+ benefit from unlimited access to the industry best solutions which we
+ compliment with highly efficient, well trained installation teams and
+ experienced project management resulting in high class solutions in both new
+ build projects and adaptable, existing shafts.
+                    </p>
+                    <p>
+                    All new lift equipment supplied and installed is on par with industry standard
+ with open protocol control and associated peripheral applications. Samrudhya
+ Elevators are happy to work to with lift consultants’ design specifications
+ and are equally proficient with project planning and conceptual design
+ projects.
                     </p>
                     <!-- <img src="assets/profile-pic-1.jpg" alt="testimonial" /> -->
                     <!-- <h4>Sam William</h4>
@@ -374,6 +388,20 @@ include("partial/header.php");
         </div>
     </div>
 </section>
+
+<script>
+    // Get current path
+    const currentPath = window.location.pathname.split("/").pop();
+
+    // Loop through all nav links
+    document.querySelectorAll('.nav-link').forEach(link => {
+        const linkPath = link.getAttribute('href');
+
+        if (linkPath === currentPath) {
+            link.classList.add('active');
+        }
+    });
+</script>
 
 
 
