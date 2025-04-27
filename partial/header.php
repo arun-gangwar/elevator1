@@ -50,6 +50,10 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> -->
+
+
         <!-- Bootstrap Icons -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
@@ -86,16 +90,16 @@
     <header class="bg-light border-bottom sticky-top py-2">
         <div class="container d-flex justify-content-between align-items-center flex-wrap">
             <div class="d-flex align-items-center gap-3">
-                <img src="assets/logo.png" alt="Blc Elevators" class="logo-im rounded-circle shadow" loading="lazy"
+                <img src="assets\LOGO.jpg" alt="Blc Elevators" class="" loading="lazy"
                     width="150" height="100" />
 
             </div>
 
-            <!-- <ul class="nav justify-content-center py-3"> -->
-            <ul class="nav__links" id="nav-links">
-                <li class="nav-item"><a class="nav-link text-white" href="index.php">Home</a></li>
+             <ul class="nav justify-content-center py-3">
+             <ul class="nav__links" id="nav-links">
+                <li class="nav-item"><a class="nav-link  active" href="index.php">Home</a></li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-white" href="#" id="productsDropdown" role="button"
+                    <a class="nav-link dropdown-toggle  active" href="#" id="productsDropdown" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false">
                         Products
                     </a>
@@ -104,20 +108,20 @@
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-white" href="#" id="servicesDropdown" role="button"
+                    <a class="nav-link dropdown-toggle  active" href="#" id="servicesDropdown" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false">
                         Services
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
-                        <li><a class="dropdown-item" href="maintenance.php">Maintenance</a></li>
-                        <li><a class="dropdown-item" href="annualM.php">Annual Maintenance</a></li>
+                        <li><a class="dropdown-item" href="maintenance.php">Maintenance Contract</a></li>
                     </ul>
                 </li>
-                <!-- <li class="nav-item"><a class="nav-link text-white" href="career.html">Careers</a></li> -->
-                <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
-                <li class="nav-item"><a class="nav-link text-white" href="">Gallery</a></li>
-                <!-- <li class="nav-item"><a class="nav-link text-white" href="">Demo</a></li> -->
-            </ul>
+                <li class="nav-item"><a class="nav-link  active" href="#contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link  active" href="partial/gallery.php">Gallery</a></li>
+            </ul>  
+
+           
+             
         </div>
 
     </header>

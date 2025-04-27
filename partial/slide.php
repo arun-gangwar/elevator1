@@ -14,7 +14,7 @@
                         <a class="btn" href="#">Know More</a>
                     </div>
                     <div class="circle-img-wrapper">
-                        <img src="assets/1.jpeg" alt="Slide 1" />
+                        <img src="assets\design5.jpeg" alt="Slide 1" />
                     </div>
                 </div>
 
@@ -25,11 +25,41 @@
                         <a class="btn" href="#">Know More</a>
                     </div>
                     <div class="circle-img-wrapper">
-                        <img src="assets/2.jpeg" alt="Slide 2" />
+                        <img src="assets\E2.jpg" alt="Slide 2" />
                     </div>
                 </div>
 
+                <div class="swiper-slide">
+                    <div class="swiper-content">
+                        <h1><span>INSIDE</span> ELEVATOR<br>VIEW</h1>
+                        <p>Modern elevator solutions made just for you</p>
+                        <a class="btn" href="#">Know More</a>
+                    </div>
+                    <div class="circle-img-wrapper">
+                        <img src="assets\design.jpeg" alt="Slide 2" />
+                    </div>
                 </div>
+                
+                <div class="swiper-slide">
+                    <div class="swiper-content">
+                        <h1><span>ELEVATOR</span> PANEL<br>AND<span> CONTROLS</span></h1>
+                        <p>Elevator Panel with Tactile Guidance Lines</p>
+                        <a class="btn" href="#">Know More</a>
+                    </div>
+                    <div class="circle-img-wrapper">
+                        <img src="assets\pb3.jpeg" alt="Slide 2" />
+
+                    
+                    </div>
+
+                    
+                </div>
+                
+                
+                </div>
+                
+
+                    
 
             <svg class="svg-bg" viewBox="0 0 2880 320" preserveAspectRatio="none">
                 <path fill="#f34f1a" fill-opacity="0.2" d="M0,192L1440,64L2880,192L2880,320L0,320Z"></path></path>
