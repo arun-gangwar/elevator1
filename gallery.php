@@ -66,7 +66,57 @@
         <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
         <link rel="stylesheet" href="styles.css" />
-    </head>
+
+
+     <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f0f0f0;
+  }
+
+  .gallery-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 40px auto;
+  }
+
+  .swiper {
+    padding: 20px 0;
+  }
+
+  .swiper-slide {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+
+  .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+  }
+
+  .swiper-slide img:hover {
+    transform: scale(1.1);
+  }
+
+  h2 {
+    text-align: center;
+    margin-top: 30px;
+    color: #333;
+  }
+</style>
+</head>
 
     <div class="top-bar bg-dark text-white w-100 py-2">
         <div class="container d-flex justify-content-end gap-4">
@@ -81,7 +131,7 @@
             </div>
             <div class="d-flex align-items-center">
                 <i class="bi bi-envelope-fill text-danger me-1"></i>
-                <span style="color: white;">blc.elevators@gmail.com</span>
+                <span style="color: white;">info@blcelevator.com</span>
             </div>
         </div>
     </div>
@@ -116,7 +166,7 @@
                         <li><a class="dropdown-item" href="maintenance.php">Maintenance Contract</a></li>
                     </ul>
                 </li>
-                <li class="nav-item"><a class="nav-link  active" href="contact.php">Contact</a></li>
+                <li class="nav-item"><a class="nav-link  active" href="#contact">Contact</a></li>
                 <li class="nav-item"><a class="nav-link  active" href="gallery.php">Gallery</a></li>
             </ul>  
 
@@ -125,13 +175,78 @@
         </div>
 
     </header>
+ 
+<body>
 
-    <section class="section__header" id="slide"></section>
-    <!-- <header class="header"> -->
-    
-    <!-- </header> -->
-    </section>
+<h2>BLC Elevators Products Gallery</h2>
 
+<div class="gallery-container header">
+  <div class="swiper myGallery">
+    <div class="swiper-wrapper">
+      <!-- List of images -->
+      <!-- <div class="swiper-slide"><img src=".\assets\2.jpeg" alt="Gallery Image"></div> -->
+      <div class="swiper-slide"><img src=".\assets\5.jpeg" alt="Gallery Image"></div>
+      <div class="swiper-slide"><img src=".\assets\8.jpeg" alt="Gallery Image"></div>
+      <div class="swiper-slide"><img src=".\assets\9.jpeg" alt="Gallery Image"></div>
+      <div class="swiper-slide"><img src=".\assets\10.jpeg" alt="Gallery Image"></div>
+      <div class="swiper-slide"><img src=".\assets\design4.jpeg" alt="Gallery Image"></div>
+      <div class="swiper-slide"><img src=".\assets\design5.jpeg" alt="Gallery Image"></div>
+      <div class="swiper-slide"><img src=".\assets\design6.jpeg" alt="Gallery Image"></div>
+      <div class="swiper-slide"><img src=".\assets\swingDoor.jpeg" alt="Gallery Image"></div>
     </div>
-    <body>
-        <!-- Your content goes here -->
+
+    <!-- Navigation buttons -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+
+    <!-- Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+  const swiper = new Swiper('.myGallery', {
+    slidesPerView: 3,
+    grid: {
+      rows: 2,
+      fill: 'row',
+    },
+    spaceBetween: 20,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    loop: true,
+    breakpoints: {
+      // When window width is >= 1024px
+      1024: {
+        slidesPerView: 3,
+        grid: { rows: 2 },
+      },
+      // When window width is between 768px and 1023px
+      768: {
+        slidesPerView: 2,
+        grid: { rows: 2 },
+      },
+      // When window width is <= 767px
+      0: {
+        slidesPerView: 1,
+        grid: { rows: 2 },
+      }
+    }
+  });
+</script>
+
+</body>
+<?php include 'partial/footer.php'; ?>

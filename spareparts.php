@@ -9,9 +9,13 @@ include('partial/header.php');
     <div class="col-lg-6">
       <h2 class="section__header">Spare Parts</h2>
       <p class="section__subheader">
-      To ensure optimal performance and minimal downtime, our comprehensive maintenance contract includes the supply and replacement of essential elevator spare parts. From control system components and door mechanisms to safety devices and electrical elements, we cover the critical parts needed for smooth operation. Our expert technicians conduct monthly servicing to proactively identify and address wear and tear, helping to extend the lifespan of your equipment while maintaining the highest standards of safety and reliability.
+        To ensure optimal performance and minimal downtime, our comprehensive maintenance contract includes the supply
+        and replacement of essential elevator spare parts. From control system components and door mechanisms to safety
+        devices and electrical elements, we cover the critical parts needed for smooth operation. Our expert technicians
+        conduct monthly servicing to proactively identify and address wear and tear, helping to extend the lifespan of
+        your equipment while maintaining the highest standards of safety and reliability.
       </p>
-     
+
       <h3 class="section__spareparts">Control System Components:</h3>
       <ul class="section__subheader">
         <li>Controller boards</li>
@@ -22,7 +26,9 @@ include('partial/header.php');
 
       <h3 class="section__spareparts">Structural Components:</h3>
       <p class="section__subheader">
-      Structural components refer to the fixed, building-integrated parts that form the physical framework for the elevator system. These are not typically replaced during standard maintenance or considered "spare parts" because they are not designed to wear out in normal operation.
+        Structural components refer to the fixed, building-integrated parts that form the physical framework for the
+        elevator system. These are not typically replaced during standard maintenance or considered "spare parts"
+        because they are not designed to wear out in normal operation.
       </p>
 
       <h3 class="section__spareparts">Mechanical Components:</h3>
@@ -36,10 +42,15 @@ include('partial/header.php');
       </ul>
     </div>
 
-    <!-- Right Image -->
-    <div class="col-lg-6">
+
+    
+    <!-- Right Side Image -->
+    <div class="col-lg-6 text-center">
       <div class="circle-img-wrapper">
-        <img src="assets/sp2.jpg" alt="Service Contract Flow">
+        <img src="assets/moter.jpeg" alt="Service Contract Process">
+      </div>
+      <div class="circle-img-wrapper">
+        <img src="assets/SPS2.jpg" alt="Service Contract Process">
       </div>
     </div>
   </div>
@@ -53,16 +64,23 @@ include('partial/header.php');
     <div class="col-lg-6">
       <h2 class="section__header">Our Products</h2>
       <p class="section__subheader">
-      We offer a wide range of high-quality elevator products designed to meet various building requirements. Our product line includes passenger elevators, freight elevators, home lifts, and elevator components. Each product is built with a focus on safety, efficiency, and modern design to ensure reliable performance and a smooth user experience.
+        We offer a wide range of high-quality elevator products designed to meet various building requirements. Our
+        product line includes passenger elevators, freight elevators, home lifts, and elevator components. Each product
+        is built with a focus on safety, efficiency, and modern design to ensure reliable performance and a smooth user
+        experience.
       </p>
 
       <!-- <h3 class="section__spareparts">Parts Covered:</h3> -->
       <ul>
-        <li>Passenger Elevators: Elegant and efficient solutions for multi-story buildings, ensuring smooth transportation between floors with advanced safety features.</li>
-        <li>Freight Elevators: Robust and heavy-duty systems designed to carry goods, industrial materials, and large loads with efficiency and reliability.</li>
+        <li>Passenger Elevators: Elegant and efficient solutions for multi-story buildings, ensuring smooth
+          transportation between floors with advanced safety features.</li>
+        <li>Freight Elevators: Robust and heavy-duty systems designed to carry goods, industrial materials, and large
+          loads with efficiency and reliability.</li>
         <li>Pit Switch, Reed Switch, Control Fuse, Landing Push Buttons, PCB, Condensers, Rectifiers</li>
-        <li>Home Lifts: Compact and customizable solutions for residential buildings, combining convenience and comfort with a sleek design.</li>
-        <li>Home Lifts: Compact and customizable solutions for residential buildings, combining convenience and comfort with a sleek design.</li>
+        <li>Home Lifts: Compact and customizable solutions for residential buildings, combining convenience and comfort
+          with a sleek design.</li>
+        <li>Home Lifts: Compact and customizable solutions for residential buildings, combining convenience and comfort
+          with a sleek design.</li>
       </ul>
 
       <!-- <h3 class="section__spareparts">Parts Not Covered:</h3>
@@ -83,14 +101,17 @@ include('partial/header.php');
       </ul> -->
     </div>
 
-    <!-- Right Side Image -->
-    <div class="col-lg-6 text-center">
+    <!-- Right Image -->
+    <div class="col-lg-6">
       <div class="circle-img-wrapper">
-        <img src="assets/sp1.jpg" alt="Service Contract Process">
+        <img src="assets/pb.jpeg" alt="Service Contract Flow">
       </div>
     </div>
+
+
   </div>
 </section>
+
 
 <!-- Bootstrap JS -->
 <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>

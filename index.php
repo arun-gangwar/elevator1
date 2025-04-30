@@ -1,7 +1,7 @@
 <?php
 include("partial/header.php");
+include("partial/slide.php");
 ?>
-
 
 <section class="section__container choose__container" id="choose">
     <img class="choose__bg" src="assets/dot-bg.png" alt="bg" />
@@ -88,11 +88,11 @@ include("partial/header.php");
     </div>
     <div class="craft__image">
         <div class="craft__image__content">
-            <img src="assets/4.jpeg" alt="craft" />
+            <img src="assets/E04.jpg" alt="craft" />
 
-            <p>Telescopic Door</p>
+            <p>Auto Center Door</p>
 
-   
+
             <!-- <h4>$65.00</h4> -->
         </div>
         <a href="#"><i class="ri-add-line"></i></a>
@@ -102,7 +102,7 @@ include("partial/header.php");
             <img src="assets/5.jpeg" alt="craft" />
             <p>Telescopic Door</p>
 
-        
+
             <!-- <h4>$50.00</h4> -->
         </div>
         <a href="#"><i class="ri-add-line"></i></a>
@@ -122,9 +122,9 @@ include("partial/header.php");
 <section class="section__container modern__container" id="modern">
     <div class="modern__image">
         <img src="assets/dot-bg.png" alt="bg" class="modern__bg" />
-        <img src="assets/3.jpeg" alt="modern" class="modern__img-1" />
-        <img src="assets/2.jpeg" alt="modern" class="modern__img-2" />
-        <img src="assets/1.jpeg" alt="modern" class="modern__img-3" />
+        <img src="assets/design4.jpeg" alt="modern" class="modern__img-1" />
+        <img src="assets/swingDoor.jpeg" alt="modern" class="modern__img-2" />
+        <img src="assets/6.jpeg" alt="modern" class="modern__img-3" />
     </div>
     <div class="modern__content">
         <h2 class="section__header">
@@ -173,152 +173,63 @@ include("partial/header.php");
 
 <section class="section__container testimonial__container" id="testimonial">
     <h2 class="section__header">Spare Parts</h2>
-    <p >
+    <p>
         We offer a wide range of high-quality elevator spare parts designed to ensure the smooth operation and
         longevity of your elevator systems. Our products include control panels, door operators, guide rails,
         traction machines, safety gears, and more. Each part is manufactured to meet industry standards and
         specifications, ensuring reliability and performance.
-        Elevator spare parts are essential for maintaining the smooth and safe operation of elevator systems. These parts can be categorized into mechanical, electrical, door system, and safety components.</p>
+        Elevator spare parts are essential for maintaining the smooth and safe operation of elevator systems. These
+        parts can be categorized into mechanical, electrical, door system, and safety components.</p>
 
-<p>Mechanical parts include the traction sheave (pulley), which drives the elevator ropes, and guide rails, which keep the elevator car aligned. Counterweight rollers support the counterweight’s movement, while suspension ropes (steel cables) bear the load of the car and counterweight. In hydraulic elevators, the hydraulic jack and seals are critical for lifting the car, and leaks in these components can lead to operational failures. Buffers (oil or spring-based) absorb impact in case of an emergency stop.</p>
-
-
-    <!-- Slider main container -->
-    <div class="swiper">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide">
-                <div class="testimonial__card"> 
-                    <h2>New installation</h2>
-                    <p>
-                    New installations and in particular design innovations are our forte. Again we
- benefit from unlimited access to the industry best solutions which we
- compliment with highly efficient, well trained installation teams and
- experienced project management resulting in high class solutions in both new
- build projects and adaptable, existing shafts.
-                    </p>
-                    <p>
-                    All new lift equipment supplied and installed is on par with industry standard
- with open protocol control and associated peripheral applications. Samrudhya
- Elevators are happy to work to with lift consultants’ design specifications
- and are equally proficient with project planning and conceptual design
- projects.
-                    </p>
-                    <!-- <img src="assets/profile-pic-1.jpg" alt="testimonial" /> -->
-                    <!-- <h4>Sam William</h4>
-                    <h5>CEO, Co-Founder</h5> -->
-                    <!-- <section class="section_spareparts" id="slide"></section>
-                    <div id="carouselExample" class="carousel slide col-lg-6 text-center" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item">
-                                <img src="assets/E3.jpg" class="d-block w-100 img-fluid rounded shadow"
-                                    alt="Blc Elevators 1" loading="lazy">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="assets/E8.jpg" class="d-block w-100 img-fluid rounded shadow"
-                                    alt="Blc Elevators 2" loading="lazy">
-                            </div>
-                            <div class="carousel-item active">
-                                <img src="assets/8.jpeg" class="d-block w-100 img-fluid rounded shadow"
-                                    alt="Blc Elevators 3" loading="lazy">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="assets/7.jpeg" class="d-block w-100 img-fluid rounded shadow"
-                                    alt="Blc Elevators 4" loading="lazy">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="assets/E6.jpg" class="d-block w-100 img-fluid rounded shadow"
-                                    alt="Blc Elevators 5" loading="lazy">
-                            </div>
-                        </div>
+    <p>Mechanical parts include the traction sheave (pulley), which drives the elevator ropes, and guide rails, which
+        keep the elevator car aligned. Counterweight rollers support the counterweight’s movement, while suspension
+        ropes (steel cables) bear the load of the car and counterweight. In hydraulic elevators, the hydraulic jack and
+        seals are critical for lifting the car, and leaks in these components can lead to operational failures. Buffers
+        (oil or spring-based) absorb impact in case of an emergency stop.</p>
 
 
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="swiper-slide">
-                <div class="testimonial__card">
-
-                    <p>Elevator spare parts are critical components that ensure the smooth operation, safety, and
-                        longevity of elevator systems. These parts include items such as control panels, door operators,
-                        guide rails, traction machines, safety gears, and more. Regular maintenance and timely
-                        replacement of worn-out parts are essential to prevent breakdowns and ensure optimal performance
-                    </p>
-
-                    <p>At BLC Elevators, we offer a comprehensive range of high-quality spare parts compatible with
-                        various elevator models, ensuring reliability and seamless integration.</p>
-
-                    <!-- <img src="assets/profile-pic-2.jpg" alt="testimonial" /> -->
-                    <!-- <h4>Michelle Anna</h4>
-                    <h5>Office Renovator</h5> -->
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <!-- <div class="testimonial__card">
-                    <p>
-                        I had a vision of a minimalist-inspired home, and they brought
-                        it to life flawlessly. Their designers understood my aesthetic
-                        and incorporated sleek, clean lines, and a neutral color palette
-                        to create a serene oasis. I'm in love with my modern,
-                        clutter-free space!
-                    </p>
-                    <img src="assets/profile-pic-3.jpg" alt="testimonial" />
-                    <h4>John D'souza</h4>
-                    <h5>Banker</h5>
-                </div> -->
-            </div>
-            <!-- <div class="swiper-slide">
-                <div class="testimonial__card">
-                    <p>
-                        What sets them apart is their professionalism and efficiency.
-                        They made the entire design process hassle-free, from the
-                        initial consultation to the final installation. Their team
-                        handled everything, leaving me with a beautifully designed
-                        modern interior
-                    </p>
-                    <img src="assets/profile-pic-4.jpg" alt="testimonial" />
-                    <h4>David Laid</h4>
-                    <h5>Businessman</h5>
-                </div> -->
-        </div>
-    </div>
-    <!-- If we need pagination -->
-    <div class="swiper-pagination"></div>
-    </div>
 </section>
+
+<section class="section__container testimonial__container" id="testimonial">    
+<h2>New installation</h2>
+                    <p>
+                        New installations and in particular design innovations are our forte. Again we
+                        benefit from unlimited access to the industry best solutions which we
+                        compliment with highly efficient, well trained installation teams and
+                        experienced project management resulting in high class solutions in both new
+                        build projects and adaptable, existing shafts.
+                    </p>
+                    <p>
+                        All new lift equipment supplied and installed is on par with industry standard
+                        with open protocol control and associated peripheral applications. BLC
+                        Elevators are happy to work to with lift consultants’ design specifications
+                        and are equally proficient with project planning and conceptual design
+                        projects.
+                    </p>
+</section>
+
+
+
 
 <section class="section__container blog_container" id="blog">
     <!-- <h2 class="section__header">Recent Blog</h2> -->
     <div class="blog__grid">
         <div class="blog__card">
             <img src="assets/design2.jpeg" alt="blog" />
-            <h4>Mastering Modern Minimalism</h4>
-            <p><span>by</span> DesignSavvySoul <span>on</span> Apr 18th, 2022</p>
+            <!-- <h4>Mastering Modern Minimalism</h4>
+            <p><span>by</span> DesignSavvySoul <span>on</span> Apr 18th, 2022</p> -->
         </div>
         <div class="blog__card">
             <img src="assets/E7.jpg" alt="blog" />
-            <h4>The Fusion of Tech and Design</h4>
+            <!-- <h4>The Fusion of Tech and Design</h4>
             <p>
                 <span>by</span> ChicNestInteriors <span>on</span> Nov 10th, 2022
-            </p>
+            </p> -->
         </div>
         <div class="blog__card">
             <img src="assets/design6.jpeg" alt="blog" />
-            <h4>Eco-Friendly Modern Interiors</h4>
-            <p><span>by</span> HomeStyleHarmony <span>on</span> Feb 25th, 2023</p>
+            <!-- <h4>Eco-Friendly Modern Interiors</h4>
+            <p><span>by</span> HomeStyleHarmony <span>on</span> Feb 25th, 2023</p> -->
         </div>
     </div>
 </section>
@@ -328,7 +239,7 @@ include("partial/header.php");
 <!-- Maintainence Content Section -->
 <section class="py-5 section__container" id="maintenance">
     <div class="container">
-        <h1 class="display-5 fw-bold">Maintenance and Annual Maintenance</h1>
+        <h1 class="display-5 fw-bold">Maintenance Contract</h1>
         <p class="lead">At B.L.C Elevators, we provide comprehensive maintenance services to ensure the safety and
             reliability of your elevator systems. Our annual maintenance contracts cover all aspects of elevator
             upkeep, including inspections, repairs, and emergency services.</p>
@@ -345,6 +256,45 @@ include("partial/header.php");
     </div>
 </section>
 
+
+<!-- contact us start -->
+<?php
+
+
+// Function to sanitize form input
+function sanitize_input($data) {
+    return htmlspecialchars(trim($data));
+}
+
+// Check if the form is submitted
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["submit"])) {
+    $to = 'info@blcelevators.com';
+    $name = sanitize_input($_POST['name']);
+    $email = sanitize_input($_POST['email']);
+    $subject = sanitize_input($_POST['subject']);
+    $message = sanitize_input($_POST['message']);
+
+    // Email headers
+    $headers = array(
+        'From' => $email,
+        'Reply-To' => $email,
+        'X-Mailer' => 'PHP/' . phpversion()
+    );
+
+    // Construct the email body
+    $body = "Name: " . $name . "\r\n";
+    $body .= "Email: " . $email . "\r\n";
+    $body .= "Subject: " . $subject . "\r\n\n";
+    $body .= "Message:\r\n" . $message;
+
+    // Send email
+    if (mail($to, $subject, $body, $headers)) {
+        echo '<div class="alert alert-success">Thank you for your message. We will get back to you soon!</div>';
+    } else {
+        echo '<div class="alert alert-danger">Sorry, there was an error sending your message. Please try again.</div>';
+    }
+}
+?>
 
 
 <!-- Contact Section -->
@@ -369,25 +319,30 @@ include("partial/header.php");
 
             <div class="col-md-6">
                 <h4>Contact Form</h4>
-                <form>
+                <form name="myForm" id="contact-form2" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
                     <div class="mb-3">
                         <label for="name" class="form-label">Your Name</label>
-                        <input type="text" class="form-control" id="name" required />
+                        <input type="text" class="form-control" id="name" name="name" required />
                     </div>
                     <div class="mb-3">
                         <label for="email" class="form-label">Your Email</label>
-                        <input type="email" class="form-control" id="email" required />
+                        <input type="email" class="form-control" id="email" name="email" required />
+                    </div>
+                    <div class="mb-3">
+                        <label for="subject" class="form-label">Your Subject</label>
+                        <input type="text" class="form-control" id="subject" name="subject" required />
                     </div>
                     <div class="mb-3">
                         <label for="message" class="form-label">Your Message</label>
-                        <textarea class="form-control" id="message" rows="4" required></textarea>
+                        <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <button type="submit" name="submit" class="btn btn-primary">Send Message</button>
                 </form>
             </div>
         </div>
     </div>
 </section>
+
 
 <script>
     // Get current path
