@@ -13,8 +13,6 @@
   /* background-color:orange; */
 }
 
-
-
 * {
   padding: 0;
   margin: 0;
@@ -101,7 +99,7 @@ body {
   
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background: #f0f4f8; // Light gray background 
+  background: #f0f4f8; 
   /* overflow-x: hidden;
   display: flex;
   justify-content: center;
@@ -345,6 +343,7 @@ nav {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
+  padding-left: 2rem;
 }
 
 .offer__grid__bottom {
@@ -355,6 +354,9 @@ nav {
 }
 
 .offer__container img {
+  width: 100%;
+  height: 400px; /* or whatever consistent height you prefer */
+  object-fit: cover;
   border-radius: 10px;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
 }
@@ -446,7 +448,6 @@ nav {
 .craft__image:hover a {
   opacity: 1;
 }
-
 .modern__container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -458,7 +459,7 @@ nav {
   width: 100%;
   max-width: 600px;
   height: 100%;
-  min-height: 470px;
+  min-height: 400px;
   margin: auto;
 }
 
@@ -483,8 +484,9 @@ nav {
 }
 
 .modern__img-2 {
-  max-width: 175px;
+  max-width: 250px;
   right: 0;
+  bottom: -2rem;
 }
 
 .modern__img-3 {
@@ -566,10 +568,13 @@ nav {
 }
 
 .blog__card img {
-  margin-bottom: 1rem;
+  width: 100%;
+  height: 400px; /* or any height you prefer */
+  object-fit: cover; /* ensures images fill the space without distortion */
   border-radius: 10px;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
 }
+
 
 .blog__card h4 {
   font-size: 1.2rem;
@@ -723,8 +728,6 @@ nav {
 .footer__social li a:hover {
   color: #f34f1a;
 }
-
-
 
 @media (width < 1200px) {
   .offer__container {
@@ -1054,12 +1057,29 @@ bottom:30%;
   z-index: 100;
 }
 
-.my-float {
+.call-now {
+  position: fixed;
+  bottom: 110px; /* Adjusted position above WhatsApp icon */
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  background-color: #f34f1a; /* Use a red-ish or preferred call color */
+  color: #FFF;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 32px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.call-now i.my-float {
   margin-top: 16px;
 }
 
 
-
+.my-float {
+  margin-top: 16px;
+}
 
 /* Default style for nav links */
 .nav-link {
@@ -1076,7 +1096,6 @@ bottom:30%;
 .nav-link:focus {
   color: #f34f1a;
 }
-
 
 /* If using a class to show active page */
 .nav-link.active {

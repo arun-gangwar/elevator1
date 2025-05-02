@@ -72,7 +72,6 @@ include("partial/slide.php");
     </div>
     <div class="offer__grid__bottom">
         <!-- <img src="assets/7.jpeg" alt="offer" /> -->
-        <img src="assets/8.jpeg" alt="offer" />
         <img src="assets/9.jpeg" alt="offer" />
         <img src="assets/10.jpeg" alt="offer" />
     </div>
@@ -330,8 +329,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["submit"])) {
                     </div>
                     <div class="mb-3">
                         <label for="subject" class="form-label">Your Subject</label>
-                        <input type="text" class="form-control" id="subject" name="subject" required />
+                        <select class="form-control" id="subject" name="subject" required>
+                            <option value="" disabled selected>Select a subject</option>
+                            <option value="Sales">Sales</option>
+                            <option value="Services">Services</option>
+                        </select>
                     </div>
+
                     <div class="mb-3">
                         <label for="message" class="form-label">Your Message</label>
                         <textarea class="form-control" id="message" name="message" rows="4" required></textarea>

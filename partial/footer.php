@@ -37,9 +37,12 @@
         <li><a href="https://x.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
         <li><a href="https://instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></li>
         <li><a href="https://linkedin.com" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-        <a  class="whats-app" href="https://api.whatsapp.com/send/?phone=919743322229" target="_blank">
-    <i class="fa fa-whatsapp my-float"></i>
-</a>
+        <a class="whats-app" href="https://api.whatsapp.com/send/?phone=919743322229" target="_blank" title="Chat on WhatsApp">
+          <i class="fa fa-whatsapp my-float"></i>
+        </a>
+        <a class="call-now" href="tel:+919743322229" title="Call Now">
+          <i class="fa fa-phone my-float"></i>
+        </a>
     </div>
   </div>
 </footer>
@@ -53,6 +56,7 @@
 
 
 <script src="main.js"></script>
+<!-- Floating WhatsApp Button with Call Icon Overlay -->
 </body>
 
 </html>
