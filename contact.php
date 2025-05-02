@@ -19,24 +19,25 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["submit"])) {
     $subject = sanitize_input($_POST['subject']);
     $message = sanitize_input($_POST['message']);
 
-    // Email headers
-    $headers = array(
-        'From' => $email,
-        'Reply-To' => $email,
-        'X-Mailer' => 'PHP/' . phpversion()
-    );
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        echo '<div class="alert alert-danger">Invalid email address.</div>';
+        exit;
+    }
 
-    // Construct the email body
+    $headers = "From: no-reply@yourdomain.com\r\n";
+    $headers .= "Reply-To: $email\r\n";
+    $headers .= "X-Mailer: PHP/" . phpversion();
+
     $body = "Name: " . $name . "\r\n";
     $body .= "Email: " . $email . "\r\n";
     $body .= "Subject: " . $subject . "\r\n\n";
     $body .= "Message:\r\n" . $message;
 
-    // Send email
     if (mail($to, $subject, $body, $headers)) {
         echo '<div class="alert alert-success">Thank you for your message. We will get back to you soon!</div>';
     } else {
         echo '<div class="alert alert-danger">Sorry, there was an error sending your message. Please try again.</div>';
+        error_log("Mail failed: to=$to, subject=$subject");
     }
 }
 ?>
@@ -75,8 +76,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["submit"])) {
                     </div>
                     <div class="mb-3">
                         <label for="subject" class="form-label">Your Subject</label>
-                        <input type="text" class="form-control" id="subject" name="subject" required />
+                        <select class="form-control" id="subject" name="subject" required>
+                            <option value="" disabled selected>Select a subject</option>
+                            <option value="Sales">Sales</option>
+                            <option value="Services">Services</option>
+                        </select>
                     </div>
+
                     <div class="mb-3">
                         <label for="message" class="form-label">Your Message</label>
                         <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
