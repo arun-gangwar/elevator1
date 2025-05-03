@@ -1081,31 +1081,36 @@ bottom:30%;
   margin-top: 16px;
 }
 
+
 /* Default style for nav links */
+/* Navbar links default */
 .nav-link {
-  color: white;
+  color: black !important; /* set to black by default */
   transition: color 0.3s ease;
 }
 
-/* When hovered */
-.nav-link:hover {
-  color: #ffc107; /* Example: Yellow */
-}
-
-/* When focused (e.g., tabbed into) */
+/* On hover and focus */
+.nav-link:hover,
 .nav-link:focus {
-  color: #f34f1a;
+  color: black !important; /* keep black on hover/focus */
 }
 
-/* If using a class to show active page */
+/* Active nav link */
 .nav-link.active {
-  color:black;/* Example: Bootstrap primary blue */
+  color: black !important;
   font-weight: bold;
 }
-.nav-link:focus,
-.nav-link.show {
-    color: #f34f1a; /* Bootstrap primary blue */
-    font-weight: bold;
+
+/* Dropdown menu items */
+.dropdown-menu .dropdown-item {
+  color: black !important;
+  background-color: transparent !important;
+}
+
+/* Dropdown item hover */
+.dropdown-menu .dropdown-item:hover {
+  background-color: #f0f0f0 !important;
+  color: black !important;
 }
 
 /* gallery css */
