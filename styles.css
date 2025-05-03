@@ -985,7 +985,7 @@ nav {
 
 @media (max-width: 768px) {
     .slider-container {
-        width: 95%; /* Full width on smaller screens */
+       /* width: 95%; /* Full width on smaller screens */
         height: auto; /* Auto height for responsiveness */
         padding-right: 0; /* No right padding on small screens */
     }
@@ -1092,12 +1092,12 @@ bottom:30%;
 /* On hover and focus */
 .nav-link:hover,
 .nav-link:focus {
-  color: black !important; /* keep black on hover/focus */
+  color: #f34f1a !important; /* keep black on hover/focus */
 }
 
 /* Active nav link */
-.nav-link.active {
-  color: black !important;
+.nav-link.active{
+  color: #f34f1a !important;
   font-weight: bold;
 }
 
