@@ -75,35 +75,53 @@
 </div>
 
 <!-- Header -->
-<header class="bg-light border-bottom sticky-top py-2">
-    <div class="container d-flex justify-content-between align-items-center flex-wrap">
-        <div class="d-flex align-items-center gap-3">
+<header class="bg-light border-bottom sticky-top">
+    <nav class="navbar navbar-expand-lg bg-light container">
+        <a class="navbar-brand" href="index.php">
             <img src="assets/LOGO.jpg" alt="Blc Elevators" loading="lazy" width="150" height="100" />
-        </div>
+        </a>
 
-        <ul class="nav justify-content-center py-3 nav__links" id="nav-links">
-            <li class="nav-item"><a class="nav-link active" href="index.php">Home</a></li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle active" href="#" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Products
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="productsDropdown">
-                    <li><a class="dropdown-item" href="spareparts.php">Spare Parts</a></li>
-                </ul>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle active" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Services
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
-                    <li><a class="dropdown-item" href="maintenance.php">Maintenance Contract</a></li>
-                </ul>
-            </li>
-            <li class="nav-item"><a class="nav-link active" href="contact.php">Contact</a></li>
-            <li class="nav-item"><a class="nav-link active" href="gallery.php">Gallery</a></li>
-        </ul>
-    </div>
+        <!-- Hamburger button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapsible menu -->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.php">Home</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Products
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="productsDropdown">
+                        <li><a class="dropdown-item" href="spareparts.php">Spare Parts</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Services
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                        <li><a class="dropdown-item" href="maintenance.php">Maintenance Contract</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.php">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.php">Gallery</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 </header>
+
 
 <!-- Optional section header -->
 <section class="section__header" id="slide"></section>
